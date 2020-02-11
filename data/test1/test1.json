@@ -1,0 +1,39 @@
+{
+  "tests":{
+
+    "login":[
+      {
+        "case":"1.测试精品课邮件登录功能",
+        "elements":{
+           "userName": "xpath>//*[@id='unameInput']>$-email1",
+           "pwd":"id>pwdInput>$-pwd1",
+           "loginbutton":"xpath>//input[@type='submit']>"
+        }
+    },
+
+      {
+        "case":"2.测试精品课邮件登录功能2",
+        "elements":{
+           "userName": "xpath>//*[@id='unameInput']>$-email2",
+           "pwd":"id>pwdInput>$-pwd2",
+           "loginbutton":"xpath>//input[@type='submit']>"
+        }
+    }
+    ],
+
+    "datainfo_rename":[
+      {
+        "case":"3.测试个人信息页，更改昵称",
+
+        "elements":{
+           "nickname": "id>account-nickname>",
+           "SubmitButton":"id>submit-btn>",
+           "comfirmbutton":"xpath>//div[@class='box-content']/div[@class='tac']/input[@class='g-btn-green finish box-ok']>",
+           "renickname":"xpath>//dl[@class='input clear-fix']/dd/input>"
+        }
+    }]
+
+
+
+}
+}

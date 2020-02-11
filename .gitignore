@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+*.pyc
+*.log
+.DS_Store
+.cache/
+__pycache__
+.pytest_cache/
+build/
+sdist/
+dist/
+*.egg-info/
+allure-results/
