@@ -20,7 +20,9 @@ env()：返回对应环境下的测试数据
 
 --config包：用于实现框架中的各种配置信息
 	
-	--Logger.py日志的配置文件 setting.py:存储url的信息 VarConfig:常用地址chromeDriverFilePath，parentDirPath等
+	--Logger.py日志的配置文件 
+	--setting.py:存储url的信息 
+	--VarConfig:常用地址chromeDriverFilePath，parentDirPath等
 	--按照测试环境创建test文件夹，下面存储test环境的测试数据，base_data 存储测试数据，test_config存储host等信息 
 
 --util包：实现测试过程中调用的工具类方法，
